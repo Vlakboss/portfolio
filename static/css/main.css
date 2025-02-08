@@ -23,6 +23,55 @@ body {
     border-radius: 15px;
 }
 
+div.links {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 9%;
+    gap: 10px;
+    background-color: #323a4b;
+    border-radius: 20px 0;
+    padding-top: 30px;
+    transform: translateY(-30px);
+}
+
+div.link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+div.link:hover {
+    background-color: #3f495f;
+}
+
+div.link.no-hover {
+    cursor: auto;
+}
+
+div.link.no-hover:hover {
+    background-color: transparent;
+}
+
+div.link-img-box {
+    width: 32px;
+    height: 32px;
+}
+
+img.link-img {
+    height: 100%;
+}
+
+div.link-text {
+    color: white;
+    font-size: 10px;
+}
+
 div.page-content {
     display: flex;
     flex-direction: row;
