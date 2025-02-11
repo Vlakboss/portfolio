@@ -1,0 +1,1 @@
+alert('POZOR! Testovací verze stránky!')
