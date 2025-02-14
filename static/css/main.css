@@ -1,0 +1,219 @@
+@import "colors.css";
+@import "fonts.css";
+
+* {
+    font-family: OpenSans;
+    font-weight: 500;
+}
+
+body {
+    background-color: #1d222c;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    display: none;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #323a4b;
+    border-radius: 15px;
+}
+
+div.links {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 9%;
+    gap: 10px;
+    background-color: #323a4b;
+    border-radius: 20px 0;
+    padding-top: 30px;
+    transform: translateY(-30px);
+}
+
+div.link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+div.link:hover {
+    background-color: #3f495f;
+}
+
+div.link.no-hover {
+    cursor: auto;
+}
+
+div.link.no-hover:hover {
+    background-color: transparent;
+}
+
+div.link-img-box {
+    width: 32px;
+    height: 32px;
+}
+
+img.link-img {
+    height: 100%;
+}
+
+div.link-text {
+    color: white;
+    font-size: 10px;
+}
+
+div.page-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    min-height: 80vh;
+    height: auto;
+    border-radius: 20px;
+    background-color: #323a4b;
+    box-shadow: 7px 7px #282e37;
+}
+
+div.page-content-sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 10px;
+    padding-top: 0;
+    margin-top: 58px;
+    height: fit-content;
+    position: sticky;
+    top: calc(10vh + 58px);
+}
+
+div.page-content-sidebar-section {
+    color: white;
+    text-align: left;
+    font-weight: bold;
+    width: 100%;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+div.page-content-sidebar-section:hover {
+    text-decoration: underline;
+}
+
+div.page-content-sidebar-item {
+    text-align: left;
+    color: white;
+    width: 100%;
+    cursor: pointer;
+    padding-left: 20px;
+}
+
+div.page-content-sidebar-item:hover {
+    text-decoration: underline;
+}
+
+div.page-content-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+    padding-left: 18px;
+    padding-bottom: 18px;
+    padding-right: 25px;
+}
+
+h1.page-content-title {
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 34px;
+    margin: 0;
+}
+
+h2.page-content-section {
+    color: white;
+    width: 100%;
+    text-align: left;
+    font-size: 28px;
+    margin: 0;
+    margin-top: 30px;
+}
+
+h3.page-content-section {
+    color: white;
+    width: 100%;
+    text-align: left;
+    font-size: 18px;
+    margin: 0;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+p.page-content-text {
+    color: white;
+    width: 100%;
+    text-align: justify;
+    font-size: 18px;
+    margin: 0;
+    margin-top: 10px;
+}
+
+p.page-content-text.h3-item {
+    padding-left: 25px;
+}
+
+ul {
+    margin: 0;
+}
+
+li {
+    color: white;
+    font-size: 18px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+li.clickable {
+    cursor: pointer;
+}
+
+li.clickable:hover {
+    text-decoration: underline;
+}
+
+span.link {
+    cursor: pointer;
+    color: rgb(73, 127, 235);
+}
+
+span.link:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 1200px) {
+    div.page-content {
+        width: 98%;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+
+    div.links {
+        flex-direction: row;
+        width: fit-content;
+        position: absolute;
+    }
+
+}

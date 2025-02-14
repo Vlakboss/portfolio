@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="cs-CZ">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,10 +10,9 @@
     <meta name="title" content="Portfolio - Matěj Růžička">
     <meta property="og:site_name" content="Portfolio - Matěj Růžička">
     <meta name="description" content="Moje úžasné Portfolio :)">
-    <meta name="revisit-after" content="">
-    <meta name="robots" content="">
-    <meta name="googlebot" content="">
-    <meta name="keywords" content="portfolio, coding, cool, modern, computers">
+
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="googlebot" content="noindex, nofollow">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
@@ -29,21 +28,177 @@
 
     <link rel="icon" href="/static/img/logo.png" type="image/icon">
 
-    <!-- Fonts -->
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> -->
-
     <!-- Styles -->
+    <link rel="stylesheet" href="/static/css/colors.css">
+    <link rel="stylesheet" href="/static/css/fonts.css">
     <link rel="stylesheet" href="/static/css/main.css">
-
 </head>
 <body>
-    <div class="grid">
-        <header></header>
-        <main></main>
-        <footer></footer>
+    <div class="page-content">
+        <div class="page-content-content">
+            <h1 class="page-content-title" id="uvod">Portfolium – Matěj Růžička</h1>
+            <p class="page-content-text">
+                Jmenuji se Matěj Růžička, je mi 15 let a již od mala se zajímám o techniku a dopravu, hlavně tu drážní. Baví mě programování, matematika a fyzika. Poslední dobou jsem se začal zajímat i o politiku a problematiku ochrany životního prostředí.
+            </p>
+            <p class="page-content-text">
+                Plynule ovládám programovací jazyk Python, částečně Javu a C# (v kombinaci s Unity). Baví mě pracovat s příkazovou řádkou jak v Linuxu (Ubuntu a podb.), tak ve Windows. Poslední dobou si také hodně hraji s automatizacemi (CI/CD), převážně v Github Actions. Občas taky něco spájím a vyrobím ve fyzickém světě.
+            </p>
+            <h2 class="page-content-section" id="kurzy">Absolvované kurzy, kroužky</h2>
+            <p class="page-content-text">
+                Zhruba ve 4. třídě mi kamarád ukázal kroužek programování ve Scratchi a začalo mě to bavit. Od té doby jsem chodil na různé kurzy programování, přes základy Pythonu až po Javu a strojové učení.
+            </p>
+            <p class="page-content-text">
+                <ul>
+                    <li>Make It Today</li>
+                    <ul>
+                        <li>
+                            Python I (2021)<br>
+                            - Základy Pythonu, syntaxe, knihovna PyGame a TKInter, základy síťové komunikace<br>
+                            - <span class="link" onclick="window.open('/static/files/python1.pdf', '_blank');">Hodnocení lektora a diplom (pdf)</span>
+                            <br><br>
+                        </li>
+                        <li>
+                            Python II (2021)<br>
+                            - SQL Lite, webserver, tvoření Discord bota, webový crawler<br>
+                            - <span class="link" onclick="window.open('/static/files/python2.pdf', '_blank');">Hodnocení lektora a diplom (pdf)</span>
+                            <br><br>
+                        </li>
+                        <li>
+                            Unity I (2022)<br>
+                            - C# skriptování, základy Unity, tvorba vlastní malé hry<br>
+                            - <span class="link" onclick="window.open('/static/files/unity1.pdf', '_blank');">Hodnocení lektora a diplom (pdf)</span>
+                            <br><br>
+                        </li>
+                        <li>
+                            Java I (2022)<br>
+                            - Java syntaxe, řídící struktury, OOP, generika, kolekce, JUnit, práce s gitem a Githubem<br>
+                            - <span class="link" onclick="window.open('/static/files/java1.pdf', '_blank');">Hodnocení lektora a diplom (pdf)</span>
+                            <br><br>
+                        </li>
+                        <li>
+                            Java II (2023)<br>
+                            - Minecraft Forge, základy kryptografie, Jasypt<br>
+                            - <span class="link" onclick="window.open('/static/files/java2.pdf', '_blank');">Hodnocení lektora a diplom (pdf)</span>
+                            <br><br>
+                        </li>
+                        <li>
+                            Python AI I (2023)<br>
+                            - Základní pojmy data science, práce v mnohodimenzionálních prostorech, strojové učení: lineární regrese, rozhodovací stromy, perceptron, vrstevnaté neuronové sítě, evoluční algoritmus<br>
+                            - <span class="link" onclick="window.open('/static/files/pythonAI1.pdf', '_blank');">Hodnocení lektora a diplom (pdf)</span>
+                            <br><br>
+                        </li>
+                        <li>
+                            Python AI II (2024)<br>
+                            - Evoluční algoritmus, Neuroevoluce (NEAT), zpracování obrazu neuronovými sítěmi - konvoluční sítě, autoencoder, GAN, Reinforcement learning - Q learning, výpočet na grafické kartě.<br>
+                            - <span class="link" onclick="window.open('/static/files/pythonAI2.pdf', '_blank');">Hodnocení lektora a diplom (pdf)</span>
+                            <br><br>
+                        </li>
+                    </ul>
+                    <li>
+                        Kroužek Elektrotechniky v Národním technickém muzeu (šk. rok 2023/2024)<br>
+                        - Základní zapojování el. obvodů, využití integrovaných obvodů, výroba zesilovače, výroba vlastního pájivého pole, pokusy (např. s Teslovým transformátorem)<br>
+                        - <span class="link" onclick="window.open('/static/files/ntm.pdf', '_blank');">Příručka z kroužku (pdf)</span>
+                        <br><br>
+                    </li>
+                    <li>
+                        Příměstský tábor ČVUT léto 2023<br>
+                        - Návštěva FIT, FEL, exkurze na Letišti Václava Havla, exkurze do železničního depa Vršovice - železniční trenažer <br>
+                        - <span class="link" onclick="window.open('/static/files/cvut1.pdf', '_blank');">Diplom (pdf)</span>
+                        <br><br>
+                    </li>
+                    <li>
+                        Příměstský tábor ČVUT léto 2024<br>
+                        - Svařování, ukázka průmyslových robotů, ukázka techniky PČR, automobilové a motocyklové trenažery<br>
+                        - <span class="link" onclick="window.open('/static/files/cvut2.pdf', '_blank');">Diplom (pdf)</span>
+                        <br><br>
+                    </li>
+                </ul>
+            </p>
+            <h2 class="page-content-section" id="projekty">Projekty</h2>
+                <h3 class="page-content-section" id="nestcoaching">Nest-Coaching.com - <span class="link" onclick="window.open('/static/files/nest_coaching.pdf', '_blank');">ukázka zde (pdf)</span></h3>
+                <p class="page-content-text h3-item">
+                    Nest-Coaching je nejnovější a zatím můj největší projekt, pracuji na něm již půl roku a zatím se vše daří. Prakticky se jedná o kombinaci e-shopu a rezervačního systému – kalendáře. Pro zpracování online plateb používáme PayPal API a vlastní databázi. Cílem webu je prodej online kurzů – jak hrát hru League of legends.  Celý projekt organizuje můj bratranec a jeho kamarád, takže musím pracovat podle jejich grafického návrhu a funkcionálních požadavků. Součástí projektu je můj vlastní „systém“ na úpravu obsahu (články, obrázky atd.). Také jsem si udělal Github Actions automatizaci na deployment nových verzí aplikace.
+                </p>
+                <h3 class="page-content-section" id="webvlakoznaltech">Web Vlakoznaltech.eu - <span class="link" onclick="window.open('/static/files/vlakoznaltech.pdf', '_blank');">ukázka zde (pdf)</span></h3>
+                <p class="page-content-text h3-item">
+                    Vlakoznaltech.eu je jeden z mých prvních webových projektů, který slouží (spíš sloužil) jako rozcestník na moje projekty. Název Vlakoznaltech je odvozen od mého prvního většího projektu – Discord bota Vlakoznala.
+                </p>
+                <h3 class="page-content-section" id="pult">Pult pro dopravní simulátory (vlaky, tramvaje, metro) - <span class="link" onclick="window.open('/static/files/pult.pdf', '_blank');">ukázka zde (pdf)</span></h3>
+                <p class="page-content-text h3-item">
+                    Z důvodu nedostupnosti jakéhokoliv speciálního ovladače pro železniční simulátory na trhu, si již druhým rokem postupně vyrábím vlastní.
+                </p>
+                <p class="page-content-text h3-item">
+                    Hardwarová část je primárně vytvořena z dřevěné desky a dílů vytištěných na 3D tiskárně. Jako vstupní periferie využívám průmyslových spínačů a potenciometrů, které jsou napojeny do Arduina. Uprostřed pultu je držák na speciální tablet, který slouží jako rychloměr a ukazatel dalších parametrů.
+                </p>    
+                <p class="page-content-text h3-item">
+                    Na softwaru pořád ještě pracuji, ale základní přenos dat z Arduina do PC je již hotov – na PC je možno zobrazit si hodnotu každého spínače nebo potenciometru.
+                </p>
+                <h3 class="page-content-section" id="vtvlaky">VT-Vlaky Jizdniradyvlaku.eu - <span class="link" onclick="window.open('/static/files/jizdniradyvlaku_eu.pdf', '_blank');">ukázka zde (pdf)</span></h3>
+                <p class="page-content-text h3-item">
+                    Jizdniradyvlaku.eu je projekt, který je digitální verzí ročního jízdního řádu všech vlaků s UX vychytávkami. Aplikace by měla ve finální verzi umět i zobrazení aktuální polohy daného vlaku na mapě, bohužel Správa Železnic za přístup k polohovému API požaduje desetitisíce ročně a není v mých možnostech to financovat.
+                </p>
+                <h3 class="page-content-section" id="hrariskuj">Hra Riskuj - <span class="link" onclick="window.open('/static/files/hra_riskuj.pdf', '_blank');">ukázka zde (pdf)</span></h3>
+                <p class="page-content-text h3-item">
+                    Pro potřeby prezentace školního projektu jsem za 1 měsíc vytvořil webovou verzi populární „školní“ hry Riskuj. Kvůli ušetření času jsem kód hry „vkuchal“ do mého předchozího projektu VT-Panel. Aplikace se serverem komunikovala pomocí protokolu websocket, což mi umožnilo průběh hry ovládat pomocí mobilní aplikace (připisování bodů, zobrazení otázek, atd.). Jelikož mělo Riskuj mezi spolužáky pozitivní ohlasy, využil jsem ho při prezentacích hned několikrát.    
+                </p>
+                <h3 class="page-content-section" id="vtpanel">VT-Panel - <span class="link" onclick="window.open('/static/files/vt_panel.pdf', '_blank');">ukázka zde (pdf)</span></h3>
+                <p class="page-content-text h3-item">
+                    VT-Panel měl být prakticky předimenzovaný to-do list, který by umožňoval zadávání úkolů jinými uživateli. Na projektu jsem pracoval zhruba rok a půl, za tu dobu jsem se v programování hodně zlepšil a usoudil jsem, že by bylo lepší začít pracovat na novém a lepším projektu.
+                </p>
+                <h3 class="page-content-section" id="ostatniprojekty">Ostatní malé projekty</h3>
+                <p class="page-content-text h3-item">
+                    <span style="font-weight: bold;">ČSÚ API reader – Volba prezidenta 2023</span> - <span class="link" onclick="window.open('/static/files/volby_api.pdf', '_blank');">ukázka zde (pdf)</span><br>
+                    Tento mini projekt vzniknul asi za 2 hodiny volebního dopoledne, když mě napadlo: „Jak vlastně funguje ten info řádek v televizi?“. Výstup této aplikace je webová stránka s daty získanými z API Českého statistického úřadu.
+                </p>
+                <p class="page-content-text h3-item">
+                    <span style="font-weight: bold;">Discord Bot Vlakoznal</span> - <span class="link" onclick="window.open('/static/files/discord_bot.pdf', '_blank');">ukázka zde (pdf)</span><br>
+                    Jeden z prvních projektů, které jsem kdy udělal, byl Discord bot Vlakoznal. Tento bot měl takovou všehochuť příkazů – od „databáze“ lokomotiv, přes informace o šíření Covidu-19, až po nástroje pro moderátory serverů.
+                </p>
+                <p class="page-content-text h3-item">
+                    <span style="font-weight: bold;">VIŽS (Vlakbossův Železniční Informační Systém)</span> - <span class="link" onclick="window.open('/static/files/vizs.pdf', '_blank');">ukázka zde (pdf)</span><br>
+                    VIŽS Je první projekt, ve kterém jsem použil nějakou formu databáze. Výstup samotné aplikace je pouze terminál a měla simulovat fungování informačních systémů na železnici. (Zobrazování odjezdů vlaků na nádraží, hlášení atd.) Bohužel jsem projekt nikdy nedokončil, kromě jiného, z důvodu nutnosti celou aplikaci přepsat do použitelné struktury.
+                </p>
+                <p class="page-content-text h3-item">
+                    <span style="font-weight: bold;">Můj úplně první kód</span> - <span class="link" onclick="window.open('/static/files/prvni_kod.pdf', '_blank');">ukázka zde (pdf)</span><br>
+                    Tato „historická památka“ využívá Python knihovnu Turtle k nakreslení jednoduchého domečku.
+                </p>
+            <h2 class="page-content-section" id="odkazy">Odkazy</h2>
+            <p class="page-content-text">
+                <ul>
+                    <li class="clickable" onclick="window.open('https://github.com/Vlakboss', '_blank');">Můj Github profil</li>
+                </ul>
+            </p>
+        </div>
+        <div class="page-content-sidebar">
+            <div class="page-content-sidebar-section" onclick="location.href='#uvod'">Úvod, zájmy</div>
+            <div class="page-content-sidebar-section" onclick="location.href='#kurzy'">Absolvované kurzy, kroužky</div>
+            <div class="page-content-sidebar-section" onclick="location.href='#projekty'">Projekty</div>
+            <div class="page-content-sidebar-item" onclick="location.href='#nestcoaching'">Nest-Coaching.com</div>
+            <div class="page-content-sidebar-item" onclick="location.href='#webvlakoznaltech'">Web vlakoznaltech.eu</div>
+            <div class="page-content-sidebar-item" onclick="location.href='#pult'">Pult pro dopravní simulátory</div>
+            <div class="page-content-sidebar-item" onclick="location.href='#vtvlaky'">Aplikace jizdniradyvlaku.eu</div>
+            <div class="page-content-sidebar-item" onclick="location.href='#hrariskuj'">Hra Riskuj</div>
+            <div class="page-content-sidebar-item" onclick="location.href='#vtpanel'">VT-Panel</div>
+            <div class="page-content-sidebar-item" onclick="location.href='#ostatniprojekty'">Ostatní projekty</div>
+            <div class="page-content-sidebar-section" onclick="location.href='#odkazy'">Odkazy, Reference</div>
+        </div>
+
     </div>
+
+    <div class="links">
+        <div class="link" onclick="window.open('https://github.com/Vlakboss', '_blank');">
+            <div class="link-img-box"><img class="link-img" src="/static/img/github_logo.png"></div>
+            <div class="link-text">Github profile</div>
+        </div>
+        <div class="link" onclick="window.open('https://github.com/Vlakboss/portfolio', '_blank');">
+            <div class="link-img-box"><img class="link-img" src="/static/img/github_logo.png"></div>
+            <div class="link-text">Page source code</div>
+        </div>
+        <div class="link no-hover">
+            <div class="link-text">Web. ver. 1</div>
+        </div>
+    </div>
+
     <script src="/static/js/main.js"></script>
 </body>
 </html>
