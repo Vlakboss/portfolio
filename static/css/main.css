@@ -72,6 +72,27 @@ div.link-text {
     font-size: 10px;
 }
 
+div.sidebar-button {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #323a4b;
+    border-left: 2px solid #282e37;
+    border-bottom: 2px solid #282e37;
+    border-radius: 0 0 0 10px;
+    cursor: pointer;   
+}
+
+div.sidebar-button:hover {
+    background-color: #3f495f;
+}
+
+img.sidebar-button-img {
+    display: block;
+    width: 42px;
+}
+
 div.page-content {
     display: flex;
     flex-direction: row;
@@ -164,7 +185,6 @@ h3.page-content-section {
 
 p.page-content-text {
     color: white;
-    width: 100%;
     text-align: justify;
     font-size: 18px;
     margin: 0;
@@ -214,6 +234,32 @@ span.link:hover {
         flex-direction: row;
         width: fit-content;
         position: absolute;
+    }
+
+}
+
+@media screen and (max-width: 855px) {
+    div.sidebar-button {
+        display: flex;
+    }
+
+    div.page-content-sidebar {
+        display: none;
+        position: fixed;
+        background-color: #323a4b;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 20px 0 0 20px;
+        top: 52px;
+        right: 0;
+        margin-top: 0;
+        border: 2px solid #282e37;
+        border-right: none;
+    }
+
+    div.page-content-content {
+        padding-right: 8px;
+        padding-left: 8px;
     }
 
 }
